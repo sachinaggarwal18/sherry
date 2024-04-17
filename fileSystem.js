@@ -15,3 +15,8 @@ fs.rename("hey.txt","bye.txt",function(err){
     if(err) console.log("error");
     else console.log("done");
 })
+
+// fs.unlink("hey.txt",function(err){
+//     if(err) con sole.log("error");
+//     else console.log("done");
+// })
